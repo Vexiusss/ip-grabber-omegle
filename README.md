@@ -2,4 +2,4 @@
 
 <p><center>On the bottom of the README.md file is there a script that you can use for omegle!</center></p>
 <br>
-# How to install
+<h1>How to install</h1>
