@@ -34,7 +34,9 @@ return pc
     <p>If you want to know where the person live go to this site: https://dnschecker.org/ip-location.php?ip and paste his ip there!</p>
     </li>
     </ul>
+
 # Special Thanks:
-    <a href="https://github.com/getgaming">GitHub</a><br>
+
+    <br><a href="https://github.com/getgaming">GitHub</a><br>
     <a href="https://youtube.com/getgamingyt">Youtube</a><br>
     <a href="https://getgaming.ml">Website</a>
