@@ -9,6 +9,7 @@
     <p>Then inspect the site (ctrl + shift + i)</p>
     <p>Then press "Console"</p>
     <p>Then paste this script:</p>
+    
     window.oRTCPeerConnection  = window.oRTCPeerConnection || window.RTCPeerConnection
 
     window.RTCPeerConnection = function(...args) {
