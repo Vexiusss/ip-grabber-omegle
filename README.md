@@ -35,6 +35,6 @@ return pc
     </li>
     </ul>
 # Special Thanks:
-    <a href="https://github.com/getgaming">GitHub</a>
-    <a href="https://youtube.com/getgamingyt">Youtube</a>
+    <a href="https://github.com/getgaming">GitHub</a><br>
+    <a href="https://youtube.com/getgamingyt">Youtube</a><br>
     <a href="https://getgaming.ml">Website</a>
