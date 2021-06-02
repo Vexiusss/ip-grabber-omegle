@@ -33,6 +33,7 @@ return pc
     <p>If you did that press "Enter"</p>
     <p>Then <b>DON'T</b> close the inspect element. Just go into a chat and you see the IP</p>
     <p>If you want to know where the person live go to this site: https://dnschecker.org/ip-location.php?ip and paste his ip there!</p>
+  </li>
 # Special Thanks:
     <a href="https://github.com/getgaming">GitHub</a>
     <a href="https://youtube.com/getgamingyt">Youtube</a>
